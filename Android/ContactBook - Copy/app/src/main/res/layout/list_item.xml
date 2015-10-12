@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><!--<TextView xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:minHeight="?android:attr/listPreferredItemHeight"--><!--android:gravity="center_vertical"--><!--android:textSize="22sp"--><!--android:paddingLeft="10dp"--><!--android:background="@color/app_theme_background_color"--><!--android:textColor="@color/app_theme_color"--><!--android:id="@+id/list_item_text_view">--><!--</TextView>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dip"
+    android:background="@color/app_theme_background_color"
+    android:orientation="horizontal"
+    android:padding="5.0dip"
+    tools:ignore="MissingPrefix">
+
+    <!--<com.beardedhen.androidbootstrap.BootstrapEditText-->
+    <!--android:id="@+id/lblListItem"-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:hint="rounded"-->
+    <!--android:editable="false"-->
+    <!--bootstrapbutton:be_roundedCorners="true"-->
+    <!--android:gravity="center"-->
+    <!--bootstrapbutton:be_state="success" />-->
+
+    <com.gc.materialdesign.views.ButtonFloat
+        android:id="@+id/img"
+        android:padding="5.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/app_theme_color" />
+
+    <!--<com.github.clans.fab.FloatingActionButton-->
+    <!--android:id="@+id/img"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/mail_inv"-->
+    <!--fab:fab_colorNormal="@color/colorPrimaryDark"-->
+    <!--fab:fab_colorPressed="@color/colorPrimary"-->
+    <!--fab:fab_colorRipple="@color/colorPrimary" />-->
+
+
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/img" />-->
+
+    <TextView
+        android:id="@+id/lblListItem"
+        fontPath="fonts/Roboto-Thin.ttf"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_theme_background_color"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:paddingLeft="10dp"
+        android:textColor="@color/app_theme_color"
+        android:textSize="17sp" />
+
+
+</LinearLayout>

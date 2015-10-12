@@ -1,0 +1,123 @@
+<com.gc.materialdesign.views.ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20.0dip"
+        tools:context="com.dexterous.contactbook.NewRegisterFragment"
+        tools:ignore="MissingPrefix">
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:id="@+id/buttonflat"
+            fontPath="fonts/Roboto-Thin.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f00"
+            android:gravity="center"
+            android:text="You Are Not Registered\nMake Your Self Register" />
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/id"
+            fontPath="fonts/Roboto-Thin.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee ID"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/app_theme_color"
+            app:met_singleLineEllipsis="true"
+            app:met_textColor="@color/app_theme_color" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/name"
+            fontPath="fonts/Roboto-Thin.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/app_theme_color"
+            app:met_singleLineEllipsis="true"
+            app:met_textColor="@color/app_theme_color" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/ext"
+            fontPath="fonts/Roboto-Thin.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Extension No"
+            android:inputType="number"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/app_theme_color"
+            app:met_singleLineEllipsis="true"
+            app:met_textColor="@color/app_theme_color" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/phone"
+            fontPath="fonts/Roboto-Thin.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/app_theme_color"
+            app:met_singleLineEllipsis="true"
+            app:met_textColor="@color/app_theme_color" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/dept"
+            fontPath="fonts/Roboto-Thin.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Department name"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/app_theme_color"
+            app:met_singleLineEllipsis="true"
+            app:met_textColor="@color/app_theme_color" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/email"
+            fontPath="fonts/Roboto-Thin.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/app_theme_color"
+            app:met_singleLineEllipsis="true"
+            app:met_textColor="@color/app_theme_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/cancle"
+                fontPath="fonts/Roboto-Thin.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/app_theme_color"
+                android:text="Cancel" />
+
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/confirm"
+                fontPath="fonts/Roboto-Thin.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/app_theme_color"
+                android:text="Confirm" />
+
+        </LinearLayout>
+    </LinearLayout>
+</com.gc.materialdesign.views.ScrollView>
